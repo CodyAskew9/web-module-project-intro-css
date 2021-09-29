@@ -11,7 +11,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	border: 0;
+	/* border: 0; */
 	}
 /* remember to define focus styles! */
 :focus {
@@ -60,7 +60,7 @@ h1{
 	font-size: 5rem;
 }
 section{
-	padding: 5% 0;
+	padding: 4% 0;
 	width: 90%;
 	margin: 0% auto;
 }
@@ -70,7 +70,7 @@ nav{
 }
 nav a{
 	display: inline-block;
-	padding: 2% 0;
+	padding: 1% 0;
 	width: 10%;
 	text-align: center;
 	border-radius: 10px;
@@ -83,11 +83,66 @@ nav a{
 }
 .blue{
 	background-color: #5ED3EB;
-	margin: 0 25%;
-
-
+	margin: 0 24%;
+	font-size: 1.5rem;
 }
 .yellow{
 	background-color: #FFCD69;
 	margin-right: 10%;
+}
+/* title section */
+.one{
+	position: relative;
+}
+.text, .image{
+	display: inline-block;
+	
+}
+.image{
+	width: 30%;
+
+}
+.text{
+	width: 55%;
+	margin-left: 5%;
+	text-align: center;
+	line-height: 3;
+	position: absolute;
+	top: 150px;
+}
+.image img{
+	border-radius: 50%;
+}
+/* main */
+.first{
+	background-color:#DDB9A3 ;
+	color: #fff;
+	padding: 3%;
+}
+
+.fire{
+	width: 30%;
+	margin: 5% auto;
+	text-align: center;
+}
+.truck{
+	width: 30%;
+	margin: 5% auto;
+	text-align: center;
+
+}
+.bold{
+	font-weight: bold;
+}
+.background{
+	background-image: url("assets/footer_img.jpg");
+	height: 50vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+/* footer */
+footer{
+	background-color: #F9E7DC;
 }
